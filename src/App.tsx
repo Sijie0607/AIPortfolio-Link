@@ -1934,6 +1934,7 @@ export default function App() {
         </div>
       </footer>
 
+
       <AnimatePresence>
         {lightboxImg && (
           <motion.div
