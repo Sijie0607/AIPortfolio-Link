@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "section": "life",
+    "description": "Content items for the standalone Life page — a separate navigable section from Illustrations & Life. Covers files from Sijie0607/AIPortfolio whose filenames contain 'Life'.",
+    "display_style": "Full-page layout — consider a scrollable editorial grid or magazine-style layout with captions, different from the illustration grid",
+    "page_url_slug": "/life",
+    "note": "The GitHub repo Sijie0607/AIPortfolio could not be accessed during generation. File names below are placeholder patterns. Replace each 'filename' and 'title' with exact filenames from your repo containing 'Life' in their name."
+  },
+  "page": {
+    "heading": "Life",
+    "subheading": "Moments, observations, and small things worth keeping",
+    "intro": "[Optional: a short paragraph about what 'Life' means to you as a section — the everyday scenes, travels, or observations that inspire your illustration and data work]"
+  },
+  "items": [
+    {
+      "id": "life-01",
+      "title": "[Life file 1 name or caption]",
+      "filename": "Life 1.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Life%201.jpg",
+      "alt": "[Brief description of scene or subject]",
+      "caption": "[Colorful area in San Diego]",
+      "category": "life",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "life-02",
+      "title": "[Life file 2 name]",
+      "filename": "Life 2.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Life%202.jpg",
+      "alt": "[Brief description]",
+      "caption": "[Intimacy of Childhood]",
+      "category": "life",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "life-03",
+      "title": "[Life file 3 name]",
+      "filename": "Life 3.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Life%203.jpg",
+      "alt": "[Brief description]",
+      "caption": "[Cozy Corner of Newbury Street]",
+      "category": "life",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "life-04",
+      "title": "[Life file 4 name]",
+      "filename": "Life 4.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Life%204.jpg",
+      "alt": "[Brief description]",
+      "caption": "[Christmas with Judy]",
+      "category": "life",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "life-05",
+      "title": "[Life file 5 name]",
+      "filename": "Life 5.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Life%205.jpg",
+      "alt": "[Brief description]",
+      "caption": "[Tree Lover]",
+      "category": "life",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "life-06",
+      "title": "[Life file 6 name]",
+      "filename": "Life 6.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Life%206.jpg",
+      "alt": "[Brief description]",
+      "caption": "[Lumos Liu]",
+      "category": "life",
+      "tags": ["[tag1]", "[tag2]"]
+    }
+  ],
+  "_how_to_fill": {
+    "step1": "Go to https://github.com/Sijie0607/AIPortfolio and list all files whose names contain 'Life'",
+    "step2": "Copy each exact filename into the 'filename' field and update the 'src' URL",
+    "step3": "Write a short 'caption' for each — this will display on the Life page",
+    "step4": "Add or remove item objects to match the exact count of Life files in your repo",
+    "src_pattern": "https://raw.githubusercontent.com/Sijie0607/AIPortfolio/main/EXACT_FILENAME"
+  }
+}

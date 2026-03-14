@@ -1,0 +1,118 @@
+{
+  "work": [
+    {
+      "id": "sentiment-analysis",
+      "type": "work",
+      "slug": "sentiment-analysis",
+      "title": "Sentiment Analysis of Call Center Conversations",
+      "company": "Research / Applied NLP",
+      "companyLink": null,
+      "role": "Data Analyst & NLP Researcher",
+      "tenure": "Sep 2024 - Dec 2024",
+      "Company": "Applica Solutions",
+      "tagline": "Converting the storm of customer voices into actionable intelligence.",
+      "intro": "In the heart of the claims department, every call is a life interrupted. This project built an end-to-end NLP pipeline to perceive the emotions behind words — transforming thousands of daily customer service conversations into structured, supervisable sentiment signals.",
+      "responsibilities": [
+        "Used data analysis and stakeholder interviews to uncover pain points and identify problems within the existing business workflow",
+        "Designed and implemented a full sentiment analysis pipeline from raw call transcripts",
+        "Leveraged different pretrained AI API, reviewing and refining the generated outputs to organize and consolidate meaningful insights"
+      ],
+      "selectedWork": [
+        {
+          "id": "01",
+          "title": "The Challenge: Drowning in the Queue",
+          "overview": "High call volumes, repeated transfers, and emotionally charged customers created an unmanageable noise problem. Supervisors had no systematic view of sentiment trends across their teams.",
+          "role": "Defined the problem scope, audited existing workflows, and identified key sentiment signals worth extracting.",
+          "skills": ["Problem Scoping", "Stakeholder Research", "Data Auditing"],
+          "timeline": "Phase 1",
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/Sijie0607/Portfolio-project-call-center/main/The%20challenge1.png",
+              "caption": "The Challenge: call queue overload and emotional noise"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/Sijie0607/Portfolio-project-call-center/main/The%20Challenge%202%20copy.png",
+              "caption": "The sea of voices — fragmented caller perspectives"
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "title": "",
+          "overview": "Built a multi-class sentiment classifier to detect emotional states — churn risk, renewal anxiety, frustration, neutral satisfaction — from transcript text, with confidence scoring per utterance.",
+          "role": "Led model selection, fine-tuning, and evaluation. Designed the output schema for downstream dashboard consumption.",
+          "skills": ["NLP", "Sentiment Classification", "BERT Fine-tuning", "Python"],
+          "timeline": "Phase 2",
+          "images": []
+        },
+        {
+          "id": "03",
+          "title": "Sentiment Hub: Wisdom from Noise",
+          "overview": "Designed a supervisor-facing dashboard that displays real-time sentiment monitoring by territory, flags at-risk accounts, and surfaces AI-generated recommendations for agent intervention.",
+          "role": "End-to-end design and implementation of the data pipeline feeding the dashboard, including territory-level aggregation and alert logic.",
+          "skills": ["Data Visualization", "Dashboard Design", "Actionable Insight Design"],
+          "timeline": "Phase 3",
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/Sijie0607/Portfolio-project-call-center/main/Supervisor.png",
+              "caption": "Supervisor Sentiment Hub — macro view of voice data"
+            }
+          ]
+        }
+      ],
+      "reflection": "This project shifted the team's mental model from reacting to phone queues to anticipating sentiment. The biggest challenge was bridging the gap between model accuracy and operational trust — supervisors needed interpretable outputs, not just scores.",
+      "thumbnail": "https://raw.githubusercontent.com/Sijie0607/AIPortfolio/main/Call%20center.jpeg",
+      "externalLink": "https://sijieliu.cargo.site/study-on-sentiment-analysis-1"
+    },
+    {
+      "id": "behavior-flow-visualization",
+      "type": "work",
+      "slug": "behavior-flow-visualization",
+      "title": "Behavior Flow Visualization",
+      "company": "Research / Data Visualization",
+      "companyLink": null,
+      "role": "Data Analyst & Visualization Designer",
+      "tenure": "2024",
+      "tagline": "Tracing the invisible paths users leave behind.",
+      "intro": "User journeys through digital environments are rarely linear. This project built an interactive visualization system to map, cluster, and interpret how users navigate complex platforms — turning raw behavioral sequences into legible flow diagrams for product and UX teams.",
+      "responsibilities": [
+        "Processed raw event-log data into structured behavioral sequences",
+        "Designed and implemented interactive flow visualization using D3.js",
+        "Identified dominant navigation patterns and friction points through clustering",
+        "Delivered findings as an interactive dashboard for non-technical stakeholders"
+      ],
+      "selectedWork": [
+        {
+          "id": "01",
+          "title": "Data Processing & Sequence Extraction",
+          "overview": "Cleaned and structured millions of event-log entries into user session sequences, applying deduplication, session boundary detection, and event taxonomy normalization.",
+          "role": "Sole data engineer and analyst for the preprocessing pipeline.",
+          "skills": ["Python", "Pandas", "Data Cleaning", "Session Analysis"],
+          "timeline": "Phase 1",
+          "images": []
+        },
+        {
+          "id": "02",
+          "title": "Flow Visualization Design",
+          "overview": "Designed a Sankey/alluvial-style interactive flow diagram to display user path frequencies, drop-off points, and branching decision clusters across the platform.",
+          "role": "Designed and coded the visualization from scratch, iterating on layout clarity through stakeholder feedback rounds.",
+          "skills": ["D3.js", "Data Visualization", "UX for Data", "Information Design"],
+          "timeline": "Phase 2",
+          "images": []
+        },
+        {
+          "id": "03",
+          "title": "Insight Delivery",
+          "overview": "Translated business workflow logic into code to track user transitions across stages, aligning node counts with SQL data warehouse records and visualizing the process through a real-time Sankey diagram connected to the database.",
+          "role": "Authored the insight narrative and presented findings to product stakeholders.",
+          "skills": ["Storytelling with Data", "Dashboard Design", "Product Thinking"],
+          "timeline": "Phase 3",
+          "images": []
+        }
+      ],
+      "reflection": "I believe the most important aspect of this work is that both the visualization and the analysis are closely aligned with the business context. Effective visualization requires selecting the most appropriate format to communicate specific information. I experimented with several alternative visualizations, but none of them conveyed the user’s browsing behavior and decision-making process as intuitively as the final Sankey diagram.\n\nOne aspect I believe could be improved further is highlighting the nodes related to the purchasing decision while still maintaining the overall clarity and simplicity of the visualization.",
+      "thumbnail": "https://raw.githubusercontent.com/Sijie0607/AIPortfolio/main/Flowchart.png",
+      "externalLink": "https://sijieliu.cargo.site/visualization"
+    }
+  ]
+}

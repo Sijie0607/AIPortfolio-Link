@@ -1,0 +1,199 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&family=Lora:wght@400;600&family=Inter:wght@400;500;600&family=Great+Vibes&display=swap');
+
+@theme {
+  --font-display: "Cormorant Garamond", serif;
+  --font-mono: "DM Mono", monospace;
+  --font-body: "Lora", serif;
+   --font-case-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-hero-bg: #f7f3dc;
+  --color-page-bg: #f2f6ea;
+  --color-ink: #2a3a1a;
+  --color-ink-light: #3d5828;
+  --color-accent: #5a9e30;
+  --color-muted: #7a9960;
+  --color-divider: #cfe0b0;
+  --color-burgundy: #7b1b28;
+}
+
+:root {
+  --hero-bg: #f7f3dc;
+  --page-bg: #f2f6ea;
+  --ink: #2a3a1a;
+  --ink-light: #3d5828;
+  --accent: #5a9e30;
+  --muted: #7a9960;
+  --divider: #cfe0b0;
+  --burgundy: #7b1b28;
+}
+
+* {
+  cursor: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-mono { font-family: var(--font-mono); }
+.font-body { font-family: var(--font-body); }
+.font-script { font-family: "Great Vibes", cursive; }
+.case-body {
+  font-family: var(--font-case-body);
+  font-size: 18px;
+  line-height: 1.65;
+}
+.subheading-burgundy {
+  color: var(--burgundy);
+}
+
+.case-column {
+  max-width: 960px;
+  width: 100%;
+  margin-left: 3vw;
+  margin-right: 5vw;
+}
+
+/* Full-width divider across the entire viewport (use inside .case-column) */
+.case-divider-full {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  border-top: 1px solid var(--divider);
+}
+
+.break-inside-avoid {
+  break-inside: avoid;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--page-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--divider);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+@keyframes drip {
+  0% { transform: scaleY(0); transform-origin: top; opacity: 0; }
+  50% { transform: scaleY(1); transform-origin: top; opacity: 1; }
+  100% { transform: scaleY(1); transform-origin: bottom; opacity: 0; }
+}
+
+.animate-drip {
+  animation: drip 2s infinite;
+}
+
+@keyframes bounce-ball {
+  0% { transform: scale(0) translateY(0); opacity: 0; }
+  30% { transform: scale(1) translateY(-22px); opacity: 1; }
+  70% { transform: scale(1) translateY(0); opacity: 1; }
+  100% { transform: scale(0) translateY(0); opacity: 0; }
+}
+
+.bouncing-ball {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 10000;
+  animation: bounce-ball 0.55s ease-out forwards;
+}
+
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav-underline {
+  position: relative;
+}
+
+.nav-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 280ms ease;
+}
+
+.nav-underline:hover::after {
+  transform: scaleX(1);
+}
+
+.hero-gradient {
+  height: 72px;
+  background: linear-gradient(to bottom, var(--hero-bg), var(--page-bg));
+}
+
+.illustration-card:hover .overlay {
+  opacity: 1;
+}
+
+@keyframes psychParticleDrift {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 35% 20%;
+  }
+  100% {
+    background-position: 70% 40%;
+  }
+}
+
+.psych-particle-band {
+  background-size: 170% 170%;
+  background-position: 0% 0%;
+  animation: psychParticleDrift 32s ease-in-out infinite alternate;
+}
+
+.work-particle-band {
+  background-size: 160% 160%;
+  background-position: 0% 0%;
+  animation: psychParticleDrift 28s ease-in-out infinite alternate;
+}
+
+@keyframes aboutPhotoShake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+  100% { transform: translateX(0); }
+}
+
+.about-photo-shake {
+  animation: aboutPhotoShake 0.35s ease-in-out 1;
+}

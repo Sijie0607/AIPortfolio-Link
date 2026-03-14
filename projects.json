@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "id": "psychological-health-gaming",
+      "type": "project",
+      "slug": "psychological-health-gaming",
+      "title": "Psychological Health of Gaming Communities",
+      "subtitle": "A study on mental well-being signals in online gaming ecosystems",
+      "role": "Researcher & Data Analyst",
+      "timeline": "Aug 2024 - Nov 2024",
+      "team": "Independent Research",
+      "tags": ["Community Analytics", "Mental Health", "Statistical Analytics"],
+      "overview": "As someone passionate about psychology and human behavior analysis, I initiated and led a research project exploring the intersection of mental health and MOBA (Multiplayer Online Battle Arena) gaming. Employing a mixed-methods research design—integrating quantitative survey analytics with qualitative behavioral interpretation—I uncovered key correlations between in-game behavioral patterns and players’ psychological well-being.",
+      "sections": [
+        {
+          "id": "01",
+          "title": "Problem",
+          "body":  "Internet gaming has become one of the most popular leisure activities amongst internet users worldwide. People hold ambiguous and highly polarized views on how to establish clear boundaries for participation in internet gaming communities, how to prevent excessive gaming among video game players, and how to foster a healthier gaming ecosystem.",
+          "image": null
+        },
+        {
+          "id": "02",
+          "title": "Purpose",
+          "body": "This analysis aims to identify the potential differences and correlations in mental health indicators across distinct gamer profiles by combining gameplay and behavioral statistics with self-reported assessments on GAD (Generalized Anxiety Disorder), Life Satisfaction (SWL), Social Phobia, and Narcissism. The goal is to better understand the psychological characteristics of different types of gamers and possible relationships between mental health outcomes and in-game behavioral metrics, which may help game developers integrate mental health considerations into game design.",
+          "image": null
+        },
+        {
+          "id": "03",
+          "title": "",
+          "body": "Conducted univariate analysis to understand the characteristics of the population and to generate preliminary insights for subsequent correlation analysis.",
+          "image": null
+        },
+        {
+          "id": "04",
+          "title": "Methodology",
+          "body": "",
+          "image": null
+        },
+        {
+          "id": "05",
+          "title": "Outcome & Reflection",
+          "body": "The resulting health index framework can be integrated into platform moderation dashboards to provide proactive, community-level mental health monitoring — shifting intervention from reactive to preventive.",
+          "image": null
+        }
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/Sijie0607/AIPortfolio/main/Psycholo%20health.png",
+      "externalLink": "https://sijieliu.cargo.site/study-on-psychological-analysis"
+    }
+  ]
+}

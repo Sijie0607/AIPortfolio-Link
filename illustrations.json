@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "section": "illustrations",
+    "description": "Gallery items for the Illustrations & Life — Illustration subsection. All src paths follow the pattern: https://raw.githubusercontent.com/Sijie0607/AIPortfolio/main/<filename>. Replace with actual filenames once the repository is confirmed accessible.",
+    "display_style": "3-column masonry grid, lightbox on click, stagger-fade on scroll entry",
+    "note": "The GitHub repo Sijie0607/AIPortfolio could not be accessed during generation. File names below are placeholder patterns inferred from your description. Please replace each 'filename' and 'title' field with the exact filenames from your repo that contain 'Illustration' in their name."
+  },
+  "items": [
+    {
+      "id": "illustration-01",
+      "title": "[Catoding]",
+      "filename": "Illustration 1.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%201.jpg",
+      "alt": "[Brief description of what this illustration depicts]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-02",
+      "title": "[Bungee Jumping!]",
+      "filename": "Illustration 2.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%202.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-03",
+      "title": "[Shout out to My Fav Illustrator - Tianran]",
+      "filename": "Illustration 3.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%203.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-04",
+      "title": "[Park's Thirty-minute Effect]",
+      "filename": "Illustration 4.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%204.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-05",
+      "title": "[Copy Cat]",
+      "filename": "Illustration 5.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%205.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-06",
+      "title": "[Sunny Afternoon]",
+      "filename": "Illustration 6.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%206.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-07",
+      "title": "[Spring Begins]",
+      "filename": "Illustration 7.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%207.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-08",
+      "title": "[Whale Watching Girl]",
+      "filename": "Illustration 8.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%208.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    },
+    {
+      "id": "illustration-09",
+      "title": "[ Rholde Island]",
+      "filename": "Illustration 9.jpg",
+      "src": "https://github.com/Sijie0607/AIPortfolio/blob/main/Illustration%209.jpg",
+      "alt": "[Brief description]",
+      "category": "illustration",
+      "tags": ["[tag1]", "[tag2]"]
+    }
+  ],
+  "_how_to_fill": {
+    "step1": "Go to https://github.com/Sijie0607/AIPortfolio and list all files whose names contain 'Illustration'",
+    "step2": "For each file, copy its exact filename into the 'filename' field and update the 'src' URL accordingly",
+    "step3": "Add a short 'alt' description and any relevant tags for each piece",
+    "step4": "Add or remove item objects to match the exact count of Illustration files in your repo",
+    "src_pattern": "https://raw.githubusercontent.com/Sijie0607/AIPortfolio/main/EXACT_FILENAME"
+  }
+}
