@@ -1893,15 +1893,14 @@ export default function App() {
         </div>
       </SectionReveal>
 
-      <footer className="max-w-[820px] mx-auto px-10 pt-16 pb-12 border-top border-divider flex flex-col md:flex-row items-center justify-between gap-8">
+      <footer className="max-w-[820px] mx-auto px-10 pt-16 pb-12 border-t border-divider flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="font-display font-bold text-ink text-xl">Sijie Liu</div>
         
         <div className="flex flex-col items-center justify-center pt-8 -mt-12">
           <p className="font-script text-ink text-2xl md:text-3xl tracking-wide">Let's keep in touch!</p>
           <div className="flex items-center gap-6 font-mono text-[0.75rem] text-ink mt-4">
-          <div className="flex items-center gap-6 font-mono text-[0.75rem] text-ink">
-          <a
-            href="https://www.linkedin.com/in/sijieliu0607/"
+            <a
+              href="https://www.linkedin.com/in/sijieliu0607/"
             target="_blank"
             rel="noopener noreferrer"
             onMouseEnter={handleMouseEnter}
